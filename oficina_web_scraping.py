@@ -10,7 +10,7 @@ anuncios_obtidos = []
 
 def iniciar_scraper():
     procurar()
-    if anuncios_disponiveis:
+    if anuncios_obtidos:
         extrair()
 
 
